@@ -1,0 +1,162 @@
+/* Responsive - Mobile Styles */
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .text-c-mobile {
+        text-align: center;
+    }
+}
+
+/* Text Colors */
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.c-black {
+    color: #000;
+}
+
+/* Background Colors */
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+/* Display Utilities */
+.d-block {
+    display: block !important;
+}
+
+/* Font Sizes */
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+/* Font Weights */
+.fw-bold {
+    font-weight: bold;
+}
+
+/* Border Radius */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+/* Width Utilities */
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+
+/* margin */
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+/* possition */
+.p-relative {
+    position: relative;
+}
+
+/* Components */
+.h2-style {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.p-style {
+    color: var(--grey-color);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.box-style {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
