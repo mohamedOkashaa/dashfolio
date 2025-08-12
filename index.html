@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <!-- Frame Work Css -->
+  <link rel="stylesheet" href="css/FrameWork.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <!-- Start Sidebar -->
+    <aside>
+      <h3 class="fw-bold">okasha</h3>
+      <ul>
+        <li>
+          <a class="active" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/share/1GpqCSs3ug/" target="_blank">
+            <i class="fa-brands fa-facebook fa-1"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mohamed-okasha-8b09a623b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">
+            <i class="fa-brands fa-linkedin fa-1"></i>
+          </a>
+          <a href="https://wa.me/201146085388" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-1"></i>
+          </a>
+          <a href="mailto:mohamedokasha755@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/mohamedOkashaa" target="_blank">
+            <i class="fa-brands fa-github fa-1"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar -->
+
+    <!-- Start Content -->
+    <div class="content w-full">
+      <!-- Start Head -->
+      <div class="head">
+        <div class="search">
+          <input type="search" placeholder="Type A Keyword" />
+        </div>
+        <div class="icons">
+          <span class="notification">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+
+          <img src="imgs/avatar.png" alt="avatar" />
+        </div>
+      </div>
+      <!-- End Head -->
+      <h1 class="fw-bold">Dashboard</h1>
+      <div class="wrapper ">
+        <!-- Start Welcome -->
+        <div class="welcome bg-white text-c-mobile block-mobile rad-10">
+          <div class="intro bg-eee">
+            <div>
+              <h2 class="fw-bold">welcome</h2>
+              <p class="c-grey">okasha</p>
+            </div>
+            <img src="imgs/welcome.png" alt="welcome" class="hidden-mobile" />
+          </div>
+          <img src="imgs/avatar.png" alt="avatar" class="avatar" />
+          <div class="body bg-white block-mobile">
+            <div>
+              mohamed okasha
+              <span class="d-block c-grey fs-14 mt-10">developer</span>
+            </div>
+            <div>70 <span class="d-block c-grey fs-14 mt-10 ">projects</span></div>
+            <div>9800$ <span class="d-block c-grey fs-14 mt-10 ">earned</span></div>
+          </div>
+          <a href="profile.html" class="visit d-block fs-14 rad-6 c-white bg-blue w-fit">visit</a>
+        </div>
+        <!-- End Welcome -->
+
+        <!--Start quick-draft  -->
+        <div class="quick-draft box-style">
+          <h2 class="h2-style">Quick Draft</h2>
+          <p class="p-style">Write A Draft For Your Ideas</p>
+          <form>
+            <input class="d-block w-full bg-eee rad-6" type="text" placeholder="Title" />
+            <textarea class="d-block w-full bg-eee rad-6" placeholder="Your Thought"></textarea>
+            <input class="save d-block fs-14 w-fit btn-shape rad-6" type="submit" value="Save" />
+          </form>
+        </div>
+        <!--End quick-draft  -->
+
+        <!-- Start Target -->
+        <div class="targets box-style">
+          <h2 class="h2-style">yearly targets</h2>
+          <p class="p-style">Targets Of The Year</p>
+
+          <div class="targets-row money">
+            <div class="icon">
+              <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+            </div>
+            <div class="details">
+              <span class="fs-14 c-grey">Money</span>
+              <span class="fw-bold d-block">$50000</span>
+
+              <div class="progress">
+                <span class="bg-blue money" style="width: 60%">
+                  <span class="bg-blue">60%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="targets-row projects">
+            <div class="icon">
+              <i class="fa-solid fa-dollar-sign fa-lg c-orange"></i>
+            </div>
+            <div class="details">
+              <span class="fs-14 c-grey">projects</span>
+              <span class="fw-bold d-block">24</span>
+              <div class="progress">
+                <span class="bg-orange projects" style="width: 40%">
+                  <span class="bg-orange">40%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="targets-row team">
+            <div class="icon">
+              <i class="fa-solid fa-dollar-sign fa-lg c-green"></i>
+            </div>
+            <div class="details">
+              <span class="fs-14 c-grey">Team</span>
+              <span class="fw-bold d-block">18</span>
+              <div class="progress">
+                <span class="bg-green team" style="width: 88%">
+                  <span class="bg-green">88%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Target -->
+
+        <!-- Start Ticket Widget -->
+        <div class="tickets box-style">
+          <h2 class="h2-style">Tickets Statistics</h2>
+          <p class="p-style">Everything About Support Tickets</p>
+          <div class="content">
+            <div class="box rad-10 fs-14 c-grey">
+              <i class="fa-regular fa-rectangle-list fa-2x c-orange"></i>
+              <span class="fw-bold c-black fs-25 d-block">500</span>
+              Pending
+            </div>
+
+            <div class="box rad-10 fs-14 c-grey">
+              <i class="fa-solid fa-spinner fa-2x c-blue"></i>
+              <span class="fw-bold c-black fs-25 d-block">500</span>
+              Pending
+            </div>
+
+            <div class="box rad-10 fs-14 c-grey">
+              <i class="fa-regular fa-circle-check fa-2x c-green"></i>
+              <span class="fw-bold c-black fs-25 d-block">500</span>
+              Pending
+            </div>
+
+            <div class="box rad-10 fs-14 c-grey">
+              <i class="fa-regular fa-rectangle-xmark fa-2x c-red"></i>
+              <span class="fw-bold c-black fs-25 d-block">500</span>
+              Pending
+            </div>
+          </div>
+        </div>
+        <!-- End Ticket Widget -->
+
+        <!-- Stert latest-news -->
+        <div class="latest-news box-style">
+          <h2 class="h2-style">Latest News</h2>
+          <div class="news-row">
+            <img src="imgs/news-01.png" alt="news" />
+            <div class="info">
+              <h3>Created SASS Section</h3>
+              <p class="p-style">New SASS Examples &amp; Tutorials</p>
+            </div>
+            <div class="bg-eee rad-6 fs-14 label">3 Days Ago</div>
+          </div>
+
+          <div class="news-row">
+            <img src="imgs/news-02.png" alt="news" />
+            <div class="info">
+              <h3>Changed The Design</h3>
+              <p class="p-style">A Brand New Website Design</p>
+            </div>
+            <div class="bg-eee rad-6 fs-14 label">5 Days Ago</div>
+          </div>
+
+          <div class="news-row">
+            <img src="imgs/news-03.png" alt="news" />
+            <div class="info">
+              <h3>Team Increased</h3>
+              <p class="p-style">3 Developers Joined The Tea</p>
+            </div>
+            <div class="bg-eee rad-6 fs-14 label">7 Days Ago</div>
+          </div>
+
+          <div class="news-row">
+            <img src="imgs/news-04.png" alt="news" />
+            <div class="info">
+              <h3>Added Payment Gateway</h3>
+              <p class="p-style">Many New Payment Gateways Added</p>
+            </div>
+            <div class="bg-eee rad-6 fs-14 label">9 Days Ago</div>
+          </div>
+        </div>
+        <!-- End latest-news -->
+
+        <!-- Start Last Tasks -->
+        <div class="tasks box-style">
+          <h2 class="h2-style">Latest Tasks</h2>
+
+          <div class="task-row">
+            <div class="info">
+              <h3>Record One New Video</h3>
+              <p class="c-grey">Record Python Create Exe Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+
+          <div class="task-row">
+            <div class="info">
+              <h3>Write Article</h3>
+              <p class="c-grey">Write Low Level vs High Level Languages</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+
+          <div class="task-row">
+            <div class="info">
+              <h3>Finish Project</h3>
+              <p class="c-grey">Publish Academy Programming Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+
+          <div class="task-row done">
+            <div class="info">
+              <h3>Attend The Meeting</h3>
+              <p class="c-grey">
+                Attend The Project Business Analysis Meeting
+              </p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+
+          <div class="task-row">
+            <div class="info">
+              <h3>Finish Lesson</h3>
+              <p class="c-grey">Finish Teaching Flex Box</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+        </div>
+        <!-- End Last Tasks -->
+
+        <!-- Start Last Project -->
+        <div class="last-project box-style">
+          <h2 class="h2-style">Last Project Progress</h2>
+          <ul>
+            <li class="done">Got The Project</li>
+            <li class="done">Started The Project</li>
+            <li class="done">The Project About To Finish</li>
+            <li class="current">Test The Project</li>
+            <li>Finish The Project & Get Money</li>
+          </ul>
+          <img class="launch-icon hidden-mobile" src="imgs/project.png" alt="launch" />
+        </div>
+        <!-- End Last Project -->
+
+        <!-- Start Reminders  -->
+        <div class="reminders box-style p-relative">
+          <h2 class="h2-style">Reminders</h2>
+          <ul>
+            <li>
+              <span class="key bg-blue d-block rad-half"></span>
+              <div class="blue">
+                <p class="fs-14 fw-bold">Check My Tasks List</p>
+                <span class="fs-13 c-grey">28/09/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key bg-green d-block rad-half"></span>
+              <div class="green">
+                <p class="fs-14 fw-bold">Check My Projects</p>
+                <span class="fs-13 c-grey">26/10/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key bg-orange d-block rad-half"></span>
+              <div class="orange">
+                <p class="fs-14 fw-bold">Call All My Clients</p>
+                <span class="fs-13 c-grey">05/11/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key bg-red d-block rad-half"></span>
+              <div class="red">
+                <p class="fs-14 fw-bold">Finish The Development Workshop</p>
+                <span class="fs-13 c-grey">20/12/2022 - 12:00am</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- End Reminders -->
+      </div>
+
+      <!-- Start Projects Table -->
+      <div class="projects-box box-style ">
+        <h2 class="h2-style">Projects</h2>
+
+        <div class="responsive-table">
+          <table class="fs-15 w-full">
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Finish Date</td>
+                <td>Client</td>
+                <td>Price</td>
+                <td>Team</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ministry Wikipedia</td>
+                <td>10 May 2022</td>
+                <td>Ministry</td>
+                <td>$5300</td>
+                <td>
+                  <img src="imgs/team-01.png" alt="icon" />
+                  <img src="imgs/team-02.png" alt="icon" />
+                  <img src="imgs/team-03.png" alt="icon" />
+                  <img src="imgs/team-04.png" alt="icon" />
+                </td>
+                <td><span class="label bg-orange c-white">Pending</span></td>
+              </tr>
+
+              <tr>
+                <td>oaksha Shop</td>
+                <td>12 Oct 2021</td>
+                <td>okasha Company</td>
+                <td>$1500</td>
+                <td>
+                  <img src="imgs/team-01.png" alt="icon" />
+                  <img src="imgs/team-02.png" alt="icon" />
+                  <img src="imgs/team-03.png" alt="icon" />
+                </td>
+                <td>
+                  <span class="label bg-blue c-white">In Progress</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Bouba App</td>
+                <td>05 Sep 2021</td>
+                <td>Bouba</td>
+                <td>$800</td>
+                <td>
+                  <img src="imgs/team-05.png" alt="icon" />
+                  <img src="imgs/team-03.png" alt="icon" />
+                </td>
+                <td><span class="label bg-green c-white">Completed</span></td>
+              </tr>
+
+              <tr>
+                <td>Mahmoud Website</td>
+                <td>22 May 2021</td>
+                <td>Mahmoud</td>
+                <td>$600</td>
+                <td>
+                  <img src="imgs/team-05.png" alt="icon" />
+                  <img src="imgs/team-01.png" alt="icon" />
+                </td>
+                <td><span class="label bg-green c-white">Completed</span></td>
+              </tr>
+
+              <tr>
+                <td>Sayed Website</td>
+                <td>24 May 2021</td>
+                <td>Sayed</td>
+                <td>$300</td>
+                <td>
+                  <img src="imgs/team-02.png" alt="icon" />
+                  <img src="imgs/team-04.png" alt="icon" />
+                </td>
+                <td><span class="label bg-red c-white">Rejected</span></td>
+              </tr>
+
+              <tr>
+                <td>Arena Application</td>
+                <td>01 Mar 2021</td>
+                <td>Arena Company</td>
+                <td>$2600</td>
+                <td>
+                  <img src="imgs/team-05.png" alt="icon" />
+                  <img src="imgs/team-01.png" alt="icon" />
+                  <img src="imgs/team-03.png" alt="icon" />
+                  <img src="imgs/team-04.png" alt="icon" />
+                </td>
+                <td><span class="label bg-green c-white">Completed</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- End Projects Table -->
+    </div>
+    <!-- End Content -->
+  </div>
+</body>
+
+</html>
